@@ -1,0 +1,74 @@
+.HeroSection {
+    background-image: url('../Images/Hero3.jpg');
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h1 {
+    color: #e9e9f3;
+    font-size: 40px;
+    position: absolute;
+    top: 18%;
+    left: 2%;
+}
+
+h4 {
+    color: #e9e9f3;
+    opacity: 70%;
+    font-family: cursive;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}
+
+.HeroButtons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-weight: 700;
+    font-family: cursive;
+    bottom: 22%;
+    left: 7%;
+}
+
+.HeroButtons .Signup {
+    background-color: #f08131;
+    color: #e9e9f3;
+    padding: 10px 15px;
+    border-radius: 0%;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.HeroButtons .Signup:hover {
+    background-color: #f67010;
+}
+
+.HeroButtons .Discover {
+    background-color: #434444;
+    color: #ec8439;
+    font-weight: 600;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.HeroButtons .Discover:hover {
+    background-color: #333535;
+}
+
+.Social {
+    display: flex;
+    position: absolute;
+    bottom: 14%;
+    left: 3%;
+}
+
+.Icon {
+    margin-left: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.PaidGamesMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.PaidGames {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Heading {
+    font-size: 20px;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.GameCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px;
+    padding-left: 40px;
+}
+
+.Img {
+    height: 250px;
+    width: 250px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.GameImg1 {
+    background-image: url('../Images/img1.jpg');
+}
+
+.GameImg2 {
+    background-image: url('../Images/img2.jpg');
+}
+
+.GameImg3 {
+    background-image: url('../Images/img3.jpg');
+}
+
+.GameImg4 {
+    background-image: url('../Images/img4.jpg');
+}
+
+.GameImg5 {
+    background-image: url('../Images/img5.jpg');
+}
+
+.GameImg6 {
+    background-image: url('../Images/img6.jpg');
+}
+
+.GameImg7 {
+    background-image: url('../Images/game1.jpg');
+}
+
+.GameImg8 {
+    background-image: url('../Images/img8.jpg');
+}
+
+.Price {
+    color: white;
+    padding: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}

@@ -1,0 +1,75 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 100vw;
+    background-color: #272720;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.Logo {
+    font-size: 22px;
+    font-weight: 500;
+    color: #e9e9f3;
+    cursor: pointer;
+}
+
+.Logo span {
+    color: #b2652a;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    margin-left: 40px;
+    color: #e9e9f3;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #ec8439;
+}
+
+.Active {
+    color: #ec8439;
+}
+
+.NavButtons {
+    display: flex;
+    font-weight: 500;
+}
+
+.Signup {
+    background-color: #ec8439;
+    color: #e9e9f3;
+    border-radius: 5%;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.Signup:hover {
+    background-color: #f37013;
+    color: #e9e9f3;
+}
+
+.Login {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.Login:hover {
+    background-color: #434444;
+}
